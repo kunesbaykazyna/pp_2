@@ -1,9 +1,9 @@
-def permutations(some):
-    n = len(some)
+def permutations(k):
+    n = len(k)
 
     for i in range(n):
         for j in range(n):
-            print(some[(j-i)], end=" ")
+            print(k[(j-i)], end=" ")
         print()
 k=str(input("soz:"))
 permutations(k)
